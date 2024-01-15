@@ -1,7 +1,69 @@
 body{
     background: #BDBDBD;
 }
+.container-fluid1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
 
-.cardclrs * h5 {
-    color:blue; 
+.container-1 {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin-top: 20px; 
+
+}
+.container-3 {
+    display: flex;
+    background-image: url("/website/assets/img/bg.jpg");
+    height: 500px;
+    background-size: auto;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-position: bottom;
+}
+.container-3 h1 {
+    background-color: white;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 90px;
+}
+.container-3 h2 {
+    background-color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+.navbar{
+    padding-left: 10px;
+}
+.Secondheading{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+}
+.ImgService{
+    border-radius: 50%;
+    
+
+}
+.Text{
+    padding-left: 15px;
+    font-size:45px;
+    font-weight:600;    
+}
+.gris{
+    color: grey;
+}
+.Parrafo{
+    font-size: 20px;
+    font-weight: normal;
 }
