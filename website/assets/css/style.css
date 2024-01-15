@@ -1,3 +1,7 @@
 body{
     background: #BDBDBD;
 }
+
+.cardclrs * h5 {
+    color:blue; 
+}
